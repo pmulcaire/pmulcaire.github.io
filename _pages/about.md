@@ -8,17 +8,20 @@ redirect_from:
   - /about.html
 ---
 
+ I'm a machine learning researcher at Duolingo, working on scaling language proficiency assessments to many languages.
 
- I’m a PhD student in computer science at the University of Washington, studying natural language processing and advised by [Noah Smith](https://homes.cs.washington.edu/~nasmith/) as part of [Noah’s Ark](http://www.ark.cs.washington.edu/).
+ Prior to working at Duolingo I recieved a PhD in computer science at the University of Washington. I studied natural language processing and was advised by [Noah Smith](https://homes.cs.washington.edu/~nasmith/) as part of [Noah’s Ark](http://www.ark.cs.washington.edu/).
 
- My work focuses on multilingual NLP: learning how to do NLP in languages other than English and developing methods that generalize across many languages. I’m particularly interested in ways to use knowledge from one language to improve our understanding of another. Some projects include methods for producing multilingual word vectors, neural language identification, and multilingual semantic role labeling.
-
- Before starting my PhD I studied computer science and cognitive science at UC Berkeley and did undergraduate research with Pieter Abbeel.
+ My research interests are focused on multilingual NLP: learning how to do NLP in languages other than English and developing methods that generalize across many languages. I’m particularly interested in ways to use knowledge from one language to improve our understanding of another. Some projects have include methods for producing multilingual word vectors, neural language identification, and multilingual semantic role labeling.
  
- You can contact me at pmulc at cs dot washington dot edu.
+ You can contact me at phoebe dot mulcaire at gmail dot com.
 
 
 ## Publications
+
+### [Crosslingual Sharing for Low-Resource Natural Language Processing - Dissertation](https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/48884/Mulcaire_washington_0250E_24163.pdf) ([slides](https://pmulcaire.github.io/files/defense.pdf))
+
+This thesis argues that even with little, indirect or absent crosslingual supervision, sharing information between languages is a highly effective strategy for low-resource NLP, and quantifies the benefits in various low-resource settings and languages. We describe two lines of work addressing the problem of crosslingual transfer in such low-resource settings. In the first, we present language models and supervised structured prediction models which take a joint training approach, sharing parameters across several languages, to improve performance relative to monolingual training. We begin the second with GroC, a language model with compositional input and output representations which store linguistic information independently of any specific vocabulary, and show that GroC succeeds in low-resource language modeling and monolingual domain adaptation. Finally, we unite these two threads by using joint crosslingual training for compositional language models, including ones which use crosslingual lexicons not available to previous multilingual models. We show that this combined approach improves low-resource learning for a variety of target languages. (This thesis describes work from several earlier papers, with a final chapter extending GroC to a multilingual setting.)
 
 ### [Grounded Compositional Outputs for Adaptive Language Modeling — EMNLP 2020](https://arxiv.org/pdf/2009.11523.pdf)
 Nikolaos Pappas, Phoebe Mulcaire, and Noah A. Smith
